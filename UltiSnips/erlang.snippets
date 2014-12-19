@@ -10,7 +10,7 @@ ${1:pattern}${2: when ${3:guard}} ->;
 endsnippet
 
 snippet beh "Behaviour Directive"
--behaviour (${1:behaviour}).
+-behaviour(${1:behaviour}).
 endsnippet
 
 snippet case "Case Expression"
@@ -21,11 +21,11 @@ end
 endsnippet
 
 snippet def "Define Directive"
--define (${1:macro}${2: (${3:param})}, ${4:body}).
+-define(${1:macro}${2: (${3:param})}, ${4:body}).
 endsnippet
 
 snippet exp "Export Directive"
--export ([${1:function}/${2:arity}]).
+-export([${1:function}/${2:arity}]).
 endsnippet
 
 snippet fun "Fun Expression"
@@ -36,7 +36,7 @@ end
 endsnippet
 
 snippet fu "Function"
-${1:function} (${2:param})${3: when ${4:guard}} ->
+${1:function}(${2:param})${3: when ${4:guard}} ->
 	${5:body}
 endsnippet
 
@@ -48,23 +48,23 @@ end
 endsnippet
 
 snippet ifdef "Ifdef Directive"
--ifdef (${1:macro}).
+-ifdef(${1:macro}).
 endsnippet
 
 snippet ifndef "Ifndef Directive"
--ifndef (${1:macro}).
+-ifndef(${1:macro}).
 endsnippet
 
 snippet imp "Import Directive"
--import (${1:module}, [${2:function}/${3:arity}]).
+-import(${1:module}, [${2:function}/${3:arity}]).
 endsnippet
 
 snippet inc "Include Directive"
--include ("${1:file}").
+-include("${1:file}").
 endsnippet
 
 snippet mod "Module Directive"
--module (${1:`!p snip.rv = snip.basename or "module"`}).
+-module(${1:`!p snip.rv = snip.basename or "module"`}).
 endsnippet
 
 snippet rcv "Receive Expression"
@@ -78,7 +78,7 @@ end
 endsnippet
 
 snippet rec "Record Directive"
--record (${1:record}, {${2:field}${3: = ${4:value}}}).
+-record(${1:record}, {${2:field}${3: = ${4:value}}}).
 endsnippet
 
 snippet try "Try Expression"
@@ -94,7 +94,7 @@ end
 endsnippet
 
 snippet undef "Undef Directive"
--undef (${1:macro}).
+-undef(${1:macro}).
 endsnippet
 
 # vim:ft=snippets:
